@@ -1,0 +1,216 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: Python-awscli
+DocumentNamespace: http://spdx.org/spdxdocs/Python-awscli-05986da3-cb92-4db7-8642-6d44811dff7d
+LicenseListVersion: 3.22
+Creator: Tool: sbom4python-0.10.3
+Created: 2024-03-18T14:58:32Z
+CreatorComment: <text>This document has been automatically generated.</text>
+##### 
+
+PackageName: awscli
+SPDXID: SPDXRef-Package-1-awscli
+PackageVersion: 1.32.64
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Amazon Web Services
+PackageDownloadLocation: https://pypi.org/project/awscli/1.32.64
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseComments: <text>awscli declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Universal Command Line Environment for AWS.</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/awscli@1.32.64
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:amazon_web_services:awscli:1.32.64:*:*:*:*:*:*:*
+##### 
+
+PackageName: botocore
+SPDXID: SPDXRef-Package-2-botocore
+PackageVersion: 1.34.64
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Amazon Web Services
+PackageDownloadLocation: https://pypi.org/project/botocore/1.34.64
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseComments: <text>botocore declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Low-level, data-driven core of boto 3.</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/botocore@1.34.64
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:amazon_web_services:botocore:1.34.64:*:*:*:*:*:*:*
+##### 
+
+PackageName: jmespath
+SPDXID: SPDXRef-Package-3-jmespath
+PackageVersion: 1.0.1
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: James Saryerwinnie (js@jamesls.com)
+PackageDownloadLocation: https://pypi.org/project/jmespath/1.0.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: e600d11e5d4e90b0d7f67882756fffc90a52eb36
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>JSON Matching Expressions</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jmespath@1.0.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:james_saryerwinnie:jmespath:1.0.1:*:*:*:*:*:*:*
+##### 
+
+PackageName: python-dateutil
+SPDXID: SPDXRef-Package-4-python-dateutil
+PackageVersion: 2.9.0.post0
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Gustavo Niemeyer (gustavo@niemeyer.net)
+PackageDownloadLocation: https://pypi.org/project/python-dateutil/2.9.0.post0
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>python-dateutil declares Dual License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Extensions to the standard Python datetime module</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/python-dateutil@2.9.0.post0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gustavo_niemeyer:python-dateutil:2.9.0.post0:*:*:*:*:*:*:*
+##### 
+
+PackageName: six
+SPDXID: SPDXRef-Package-5-six
+PackageVersion: 1.16.0
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Benjamin Peterson (benjamin@python.org)
+PackageDownloadLocation: https://pypi.org/project/six/1.16.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 65486e4383f9f411da95937451205d3c7b61b9e1
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python 2 and 3 compatibility utilities</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/six@1.16.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:benjamin_peterson:six:1.16.0:*:*:*:*:*:*:*
+##### 
+
+PackageName: urllib3
+SPDXID: SPDXRef-Package-6-urllib3
+PackageVersion: 2.2.1
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Andrey Petrov (andrey.petrov@shazow.net)
+PackageDownloadLocation: https://pypi.org/project/urllib3/2.2.1
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>HTTP library with thread-safe connection pooling, file post, and more.</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/urllib3@2.2.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:andrey_petrov:urllib3:2.2.1:*:*:*:*:*:*:*
+##### 
+
+PackageName: colorama
+SPDXID: SPDXRef-Package-7-colorama
+PackageVersion: 0.4.4
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Jonathan Hartley (tartley@tartley.com)
+PackageDownloadLocation: https://pypi.org/project/colorama/0.4.4
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6e5fef2d29bbbcf5485bb320972dbb6813b6705b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>colorama declares BSD which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Cross-platform colored terminal text.</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/colorama@0.4.4
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jonathan_hartley:colorama:0.4.4:*:*:*:*:*:*:*
+##### 
+
+PackageName: docutils
+SPDXID: SPDXRef-Package-8-docutils
+PackageVersion: 0.16
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: David Goodger (goodger@python.org)
+PackageDownloadLocation: https://pypi.org/project/docutils/0.16
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>docutils declares public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt) which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Docutils -- Python Documentation Utilities</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/docutils@0.16
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:david_goodger:docutils:0.16:*:*:*:*:*:*:*
+##### 
+
+PackageName: pyyaml
+SPDXID: SPDXRef-Package-9-pyyaml
+PackageVersion: 6.0.1
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Kirill Simonov (xi@resolvent.net)
+PackageDownloadLocation: https://pypi.org/project/PyYAML/6.0.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: c42fa3bff1eabdb64763bb1526d9ea1ccb708479
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>YAML parser and emitter for Python</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyyaml@6.0.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:kirill_simonov:pyyaml:6.0.1:*:*:*:*:*:*:*
+##### 
+
+PackageName: rsa
+SPDXID: SPDXRef-Package-10-rsa
+PackageVersion: 4.7.2
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Organization: Sybren A. Stuvel (sybren@stuvel.eu)
+PackageDownloadLocation: https://pypi.org/project/rsa/4.7.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 87664078fbbd8bd1f84a9dff05bb1d673b696eaa
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseComments: <text>rsa declares ASL 2 which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Pure-Python RSA implementation</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/rsa@4.7.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sybren_a._stuvel:rsa:4.7.2:*:*:*:*:*:*:*
+##### 
+
+PackageName: pyasn1
+SPDXID: SPDXRef-Package-11-pyasn1
+PackageVersion: 0.5.1
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Person: Ilya Etingof (etingof@gmail.com)
+PackageDownloadLocation: https://pypi.org/project/pyasn1/0.5.1
+FilesAnalyzed: false
+PackageLicenseDeclared: BSD-2-Clause
+PackageLicenseConcluded: BSD-2-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyasn1@0.5.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ilya_etingof:pyasn1:0.5.1:*:*:*:*:*:*:*
+##### 
+
+PackageName: s3transfer
+SPDXID: SPDXRef-Package-12-s3transfer
+PackageVersion: 0.10.1
+PrimaryPackagePurpose: LIBRARY
+PackageSupplier: Organization: Amazon Web Services (kyknapp1@gmail.com)
+PackageDownloadLocation: https://pypi.org/project/s3transfer/0.10.1
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseComments: <text>s3transfer declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>An Amazon S3 Transfer Manager</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/s3transfer@0.10.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:amazon_web_services:s3transfer:0.10.1:*:*:*:*:*:*:*
+##### 
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-1-awscli
+Relationship: SPDXRef-Package-1-awscli DEPENDS_ON SPDXRef-Package-10-rsa
+Relationship: SPDXRef-Package-1-awscli DEPENDS_ON SPDXRef-Package-12-s3transfer
+Relationship: SPDXRef-Package-1-awscli DEPENDS_ON SPDXRef-Package-2-botocore
+Relationship: SPDXRef-Package-1-awscli DEPENDS_ON SPDXRef-Package-7-colorama
+Relationship: SPDXRef-Package-1-awscli DEPENDS_ON SPDXRef-Package-8-docutils
+Relationship: SPDXRef-Package-1-awscli DEPENDS_ON SPDXRef-Package-9-pyyaml
+Relationship: SPDXRef-Package-10-rsa DEPENDS_ON SPDXRef-Package-11-pyasn1
+Relationship: SPDXRef-Package-12-s3transfer DEPENDS_ON SPDXRef-Package-2-botocore
+Relationship: SPDXRef-Package-2-botocore DEPENDS_ON SPDXRef-Package-3-jmespath
+Relationship: SPDXRef-Package-2-botocore DEPENDS_ON SPDXRef-Package-4-python-dateutil
+Relationship: SPDXRef-Package-2-botocore DEPENDS_ON SPDXRef-Package-6-urllib3
+Relationship: SPDXRef-Package-4-python-dateutil DEPENDS_ON SPDXRef-Package-5-six

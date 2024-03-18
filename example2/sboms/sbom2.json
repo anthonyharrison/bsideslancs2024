@@ -1,0 +1,599 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:d6e551fb-72ee-4e97-ad9b-0d67198b8805",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-03-18T15:49:34Z",
+    "tools": {
+      "components": [
+        {
+          "name": "sbom4python",
+          "version": "0.10.3",
+          "type": "application"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "CDXRef-DOCUMENT",
+      "name": "Python-awscli"
+    }
+  },
+  "components": [
+    {
+      "type": "application",
+      "bom-ref": "1-awscli",
+      "name": "awscli",
+      "version": "1.32.64",
+      "supplier": {
+        "name": "Amazon Web Services"
+      },
+      "cpe": "cpe:2.3:a:amazon_web_services:awscli:1.32.64:*:*:*:*:*:*:*",
+      "description": "Universal Command Line Environment for AWS.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/awscli/1.32.64",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/awscli@1.32.64",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "awscli declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2-botocore",
+      "name": "botocore",
+      "version": "1.34.64",
+      "supplier": {
+        "name": "Amazon Web Services"
+      },
+      "cpe": "cpe:2.3:a:amazon_web_services:botocore:1.34.64:*:*:*:*:*:*:*",
+      "description": "Low-level, data-driven core of boto 3.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/botocore/1.34.64",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/botocore@1.34.64",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "botocore declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "3-jmespath",
+      "name": "jmespath",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "James Saryerwinnie",
+        "contact": [
+          {
+            "email": "js@jamesls.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:james_saryerwinnie:jmespath:1.0.1:*:*:*:*:*:*:*",
+      "description": "JSON Matching Expressions",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e600d11e5d4e90b0d7f67882756fffc90a52eb36"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/jmespath/1.0.1",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/jmespath@1.0.1",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "4-python-dateutil",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "supplier": {
+        "name": "Gustavo Niemeyer",
+        "contact": [
+          {
+            "email": "gustavo@niemeyer.net"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:gustavo_niemeyer:python-dateutil:2.9.0.post0:*:*:*:*:*:*:*",
+      "description": "Extensions to the standard Python datetime module",
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/python-dateutil/2.9.0.post0",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "python-dateutil declares Dual License which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "5-six",
+      "name": "six",
+      "version": "1.16.0",
+      "supplier": {
+        "name": "Benjamin Peterson",
+        "contact": [
+          {
+            "email": "benjamin@python.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:benjamin_peterson:six:1.16.0:*:*:*:*:*:*:*",
+      "description": "Python 2 and 3 compatibility utilities",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "65486e4383f9f411da95937451205d3c7b61b9e1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/six/1.16.0",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/six@1.16.0",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "6-urllib3",
+      "name": "urllib3",
+      "version": "2.2.1",
+      "supplier": {
+        "name": "Andrey Petrov",
+        "contact": [
+          {
+            "email": "andrey.petrov@shazow.net"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:andrey_petrov:urllib3:2.2.1:*:*:*:*:*:*:*",
+      "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/urllib3/2.2.1",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.2.1",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "7-colorama",
+      "name": "colorama",
+      "version": "0.4.4",
+      "supplier": {
+        "name": "Jonathan Hartley",
+        "contact": [
+          {
+            "email": "tartley@tartley.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:jonathan_hartley:colorama:0.4.4:*:*:*:*:*:*:*",
+      "description": "Cross-platform colored terminal text.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6e5fef2d29bbbcf5485bb320972dbb6813b6705b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/colorama/0.4.4",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/colorama@0.4.4",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "colorama declares BSD which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8-docutils",
+      "name": "docutils",
+      "version": "0.16",
+      "supplier": {
+        "name": "David Goodger",
+        "contact": [
+          {
+            "email": "goodger@python.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:david_goodger:docutils:0.16:*:*:*:*:*:*:*",
+      "description": "Docutils -- Python Documentation Utilities",
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/docutils/0.16",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/docutils@0.16",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "docutils declares public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt) which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "9-pyyaml",
+      "name": "pyyaml",
+      "version": "6.0.1",
+      "supplier": {
+        "name": "Kirill Simonov",
+        "contact": [
+          {
+            "email": "xi@resolvent.net"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:kirill_simonov:pyyaml:6.0.1:*:*:*:*:*:*:*",
+      "description": "YAML parser and emitter for Python",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c42fa3bff1eabdb64763bb1526d9ea1ccb708479"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/PyYAML/6.0.1",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "10-rsa",
+      "name": "rsa",
+      "version": "4.9",
+      "supplier": {
+        "name": "Sybren A . Stuvel",
+        "contact": [
+          {
+            "email": "sybren@stuvel.eu"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:sybren_a._stuvel:rsa:4.9:*:*:*:*:*:*:*",
+      "description": "Pure-Python RSA implementation",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "87664078fbbd8bd1f84a9dff05bb1d673b696eaa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/rsa/4.7.2",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/rsa@4.9",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "rsa declares ASL 2 which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "11-pyasn1",
+      "name": "pyasn1",
+      "version": "0.5.1",
+      "supplier": {
+        "name": "Ilya Etingof",
+        "contact": [
+          {
+            "email": "etingof@gmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:ilya_etingof:pyasn1:0.5.1:*:*:*:*:*:*:*",
+      "description": "Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "https://opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/pyasn1/0.5.1",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/pyasn1@0.5.1",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "12-s3transfer",
+      "name": "s3transfer",
+      "version": "0.10.1",
+      "supplier": {
+        "name": "Amazon Web Services",
+        "contact": [
+          {
+            "email": "kyknapp1@gmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:amazon_web_services:s3transfer:0.10.1:*:*:*:*:*:*:*",
+      "description": "An Amazon S3 Transfer Manager",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/s3transfer/0.10.1",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/s3transfer@0.10.1",
+      "properties": [
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        },
+        {
+          "name": "License Comments",
+          "value": "s3transfer declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression."
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CDXRef-DOCUMENT",
+      "dependsOn": [
+        "1-awscli"
+      ]
+    },
+    {
+      "ref": "1-awscli",
+      "dependsOn": [
+        "2-botocore",
+        "7-colorama",
+        "8-docutils",
+        "9-pyyaml",
+        "10-rsa",
+        "12-s3transfer"
+      ]
+    },
+    {
+      "ref": "2-botocore",
+      "dependsOn": [
+        "3-jmespath",
+        "4-python-dateutil",
+        "6-urllib3"
+      ]
+    },
+    {
+      "ref": "4-python-dateutil",
+      "dependsOn": [
+        "5-six"
+      ]
+    },
+    {
+      "ref": "10-rsa",
+      "dependsOn": [
+        "11-pyasn1"
+      ]
+    },
+    {
+      "ref": "12-s3transfer",
+      "dependsOn": [
+        "2-botocore"
+      ]
+    }
+  ]
+}
