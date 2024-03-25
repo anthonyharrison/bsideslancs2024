@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <greeting>Hello, World!</greeting>
+  <text>Hello, World!</text>
 </root>
