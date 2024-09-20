@@ -1,0 +1,4 @@
+lib4package==0.2.0
+lib4sbom==0.7.5
+sbom2dot==0.3.0
+sbom4files==0.4.4
